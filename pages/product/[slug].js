@@ -96,9 +96,9 @@ const ProductDetails = ({ product, products }) => {
                   {p.size.data.map((item, i) => (
                     <div
                       key={i}
-                      className={`border rounded-xl text-center py-3 font-medium ${
+                      className={`border rounded-md text-center py-3 font-medium ${
                         item.enabled
-                          ? "hover:border-black/[0.5] hover:bg-slate-100 hover:scale-105 transition-all duration-200 cursor-pointer"
+                          ? "hover:border-black cursor-pointer"
                           : "cursor-not-allowed bg-black/[0.1] opacity-50"
                       } ${selectedSize === item.size ? "border-black" : ""}`}
                       onClick={() => {
