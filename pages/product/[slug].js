@@ -98,7 +98,7 @@ const ProductDetails = ({ product, products }) => {
                       key={i}
                       className={`border rounded-md text-center py-3 font-medium ${
                         item.enabled
-                          ? "hover:border-black cursor-pointer"
+                          ? "hover:border-black cursor-pointer bg-slate-200 rounded-lg font-semibold"
                           : "cursor-not-allowed bg-black/[0.1] opacity-50"
                       } ${selectedSize === item.size ? "border-black" : ""}`}
                       onClick={() => {
@@ -146,7 +146,7 @@ const ProductDetails = ({ product, products }) => {
               </button>
 
               {/* Add to WishList button */}
-              
+
               <div>
                 <div className="text-lg font-bold my-7">Product Details</div>
                 <div className="markdown text-md font-semibold text-black/[0.5] my-5">
