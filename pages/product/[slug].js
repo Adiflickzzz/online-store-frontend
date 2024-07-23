@@ -146,9 +146,7 @@ const ProductDetails = ({ product, products }) => {
               </button>
 
               {/* Add to WishList button */}
-              <button className="w-full py-3 border border-black rounded-xl flex items-center justify-center gap-1 text-black text-base font-bold -mt-2 transition-transform active:scale-95 hover:bg-black/[0.05]">
-                Add to WishList <FaRegHeart />
-              </button>
+              
               <div>
                 <div className="text-lg font-bold my-7">Product Details</div>
                 <div className="markdown text-md font-semibold text-black/[0.5] my-5">
